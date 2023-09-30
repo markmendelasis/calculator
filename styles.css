@@ -1,0 +1,73 @@
+div{
+    margin: 3px 0px ;
+}
+body{
+    height: 100%;
+    background-color: black;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+button{
+    font-size: x-large;
+    width: 10vh;
+    height: 10vh;
+    display: inline-block;
+    align-content: center;
+    
+}
+
+.buttonsOfCalculator{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+} 
+
+.theButtons{
+    width: auto;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px; /* Optional: Adds some space between button rows */
+}
+
+
+#buttonsOfCalculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+input{
+    font-size: 20px;
+    width: 51vh;
+    height: 7vh;
+}
+
+.inputCal{
+
+        display: flex;
+        justify-content: center; /* Centers the child elements horizontally */
+
+}
+
+
+.wholePage{
+
+        background-color: aqua;
+        width: 100%;
+        position: absolute;
+        font-size: 18px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+}
